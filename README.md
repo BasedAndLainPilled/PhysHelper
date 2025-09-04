@@ -9,7 +9,7 @@ A lightweight Roblox module to keep unanchored parts awake and responsive. Desig
 
 - Scales nudges based on part mass for consistent motion.
 
-- Optional multiplayer support via network ownership assignment. --Although not intedended
+- Optional multiplayer support via network ownership assignment. --Although not intended
 
 - Cleans up automatically when parts are removed.
 
