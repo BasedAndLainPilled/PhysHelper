@@ -9,7 +9,7 @@ local PhysHelper = {
 	heartbeat = nil,
 
 	thresh = 0.2,
-	nudge = Vector3.new(0, 0.0001, 0), -- small nudge up (increasing 2 much will cause physics instability, scale as you with tho)
+	nudge = Vector3.new(0, 0.0001, 0), -- small nudge up (increasing 2 much will cause physics instability, scale as you wish tho)
 	FramesSkip = 2,
 	neighborMultiplier = 2, -- chunkSize multiplier for nearby parts
 	frameCounter = 0,
@@ -162,3 +162,4 @@ function PhysHelper:ClearAllWatched()
 end
 
 return PhysHelper
+
