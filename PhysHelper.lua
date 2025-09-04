@@ -90,7 +90,7 @@ local function stirParts()
 				-- scale nudge by mass
 				local mass = part:GetMass()
                    local masscap = math.min(mass, 50) --You can probably remove the cap
-                part.AssemblyLinearVelocity += PhysHelper.nudge * cappedMass
+                part.AssemblyLinearVelocity += PhysHelper.nudge * masscap
 			end
 		end
 	end
@@ -163,5 +163,6 @@ function PhysHelper:ClearAllWatched()
 end
 
 return PhysHelper
+
 
 
